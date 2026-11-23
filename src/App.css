@@ -1,0 +1,89 @@
+
+h1 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+  gap: 25px;
+  padding: 15px;
+  background-color: #e9eef5;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #245a93;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Employee Cards */
+
+.employee-card {
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.employee-card h3 {
+  margin-top: 0;
+  color: #222;
+}
+
+.employee-card p {
+  margin: 10px 0;
+}
+
+/* Input Fields */
+
+input {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+/* Add Employee Form */
+
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+form button {
+  background-color: #245a93;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #19456f;
+}
+form button {
+  display: block;
+  margin-top: 10px;
+}
